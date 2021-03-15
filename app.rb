@@ -22,5 +22,7 @@ get '/wrong_decision' do
 end
 
 get '/cat' do
+  @name = ['Amigo', 'Misty', 'Almond'].sample
+  @test = 'Neo'
   erb(:index)
 end

@@ -107,3 +107,16 @@ servers
         - you wouldn't want to have many lines of code embedded!
 - [x] Inside these ERB tags, write an expression that samples a random name from the following array: ["Amigo", "Misty", "Almond"]
 - [x] Restart your server and visit the path associated with the cat route.
+
+# 11. Keeping Views Clean
+
+- [x] Move the expression for generating a random name into the route for your view, assigning it to an _instance variable_
+- [x] Substitute the expression within the view for the instance variable instead
+- [x] Visit the webpage to ensure nothing has gone wrong.
+
+    - view logic should be limited to light conditional (if/else) and light iterators (each)
+    - controller you set up with
+      - @instance_variable = ruby_code
+      - erb(:index)
+    - in view page
+      - <h1> <%= @instance_variable %> </h1>
