@@ -62,3 +62,11 @@ servers
 - [x] Explain to your partner the significance of what you see in the terminal
     - Saw the gets requests from the browser
 - [x] Use a browser to visit your application at `http://localhost:4567`
+
+# 6. Sinatra: Defining a route
+
+- [x] Use Sinatra's error message above to define a route that responds to incoming requests to the / path
+- [x] Return the string "hello!" from this route
+- [x] Check that your route works by visiting your application in the browser at the correct address.
+- Are you able to visit your application from a different computer? Why/why not?
+        - No...
