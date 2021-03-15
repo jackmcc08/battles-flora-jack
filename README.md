@@ -120,3 +120,19 @@ servers
       - erb(:index)
     - in view page
       - <h1> <%= @instance_variable %> </h1>
+
+
+# 12. Introducing Params
+
+- [x] Rename your `/cat` route to `/random-cat`.
+- [x] Build a new route, `/named-cat`, that does the same as `/random-cat`.
+- [x] Instead of setting the `@name` instance variable equal to a sampled array, set it equal to `params[:name]`
+- [x] Visit your route from a browser
+- [x] Explain to your pair partner what you see
+    - no parameter was added so nothing is displayed on the page
+- [x] In the browser URL, add the following **query string** after the `/named-cat` path: `?name=Ashley`, and visit that page
+- [x] Explain to your pair partner what you see
+    - this provides a param to the controller and inputs it into the page
+- [x] In the line before you assign your `@name` variable, print (`p`) the `params` of the request
+- [x] Restart your server and refresh the page. Check the terminal (**server logs**) and explain to your pair partner what you see
+- [x] Change parts of the **query string** within the URL bar of your browser until you can fully explain how it works to your pair partner.

@@ -21,8 +21,15 @@ get '/wrong_decision' do
   'Blue Pill'
 end
 
-get '/cat' do
+get '/random-cat' do
   @name = ['Amigo', 'Misty', 'Almond'].sample
   @test = 'Neo'
+  erb(:index)
+end
+
+get '/named-cat' do
+  p params
+  @name = params[:name]
+  @test = params[:note]
   erb(:index)
 end
