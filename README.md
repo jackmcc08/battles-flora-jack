@@ -68,5 +68,16 @@ servers
 - [x] Use Sinatra's error message above to define a route that responds to incoming requests to the / path
 - [x] Return the string "hello!" from this route
 - [x] Check that your route works by visiting your application in the browser at the correct address.
-- Are you able to visit your application from a different computer? Why/why not?
+- [x] Are you able to visit your application from a different computer? Why/why not?
         - No...
+
+# 7. Sinatra: Start and Restart
+
+- [x] Define a second route, get '/secret'. Have it respond with a message of your choosing.
+- [x] Visit the new route in the browser. Do you see the message you wrote? If not, move on.
+- [x] Kill the app on the command line with ctrl-c and run it again.
+- [x] Visit the new route in the browser again. Do you see the message you wrote this time?
+- [x] Manually restarting the server every time you change your code is going to get painful. Install and run your server using the shotgun gem instead. BEWARE, when you are using shotgun with Sinatra, each time your server restarts your sessions will be lost, to solve this problem you need to follow these instructions. You can also find these in the Shotgun Documentation under Caveats.
+        - don't know what set :secret_sessions 'string' does
+        - we changed ruby 2.7.2 to support shotgun
+- [x] Define a few more routes. Without killing the server, check if the routes are visitable.
