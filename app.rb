@@ -22,5 +22,5 @@ get '/wrong_decision' do
 end
 
 get '/cat' do
-  "<img src='https://image.shutterstock.com/image-photo/cat-medical-mask-protective-antiviral-260nw-1684423789.jpg' style='border:dashed red' alt='kitten'>"
+  erb(:index)
 end

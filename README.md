@@ -88,3 +88,14 @@ servers
 - [x] Using this image: http://bit.ly/1eze8aE , return an HTML string from the route that displays a cat photograph surrounded by a red dashed border.
 
 - ADDD QUOTE MARKS AROUND YOUR HTML STRINGS!!!
+
+
+# 9. Views
+
+- [x] Create a directory called views, within the same directory as your app.rb file
+- [x] Create an index.erb file (a 'view file') within the views directory
+- [x] Move the HTML string you wrote in app.rb ('routing file') into the view file you just created
+        - with NO quotation marks now!!
+- [x] Replace the HTML string in the routing file with the statement erb(:index)
+- [x] Restart your server, and visit your previously-working route
+- [x] Explain to your pair partner what you see.
