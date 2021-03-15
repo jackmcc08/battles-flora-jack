@@ -99,3 +99,11 @@ servers
 - [x] Replace the HTML string in the routing file with the statement erb(:index)
 - [x] Restart your server, and visit your previously-working route
 - [x] Explain to your pair partner what you see.
+
+# 10. erb
+
+- [x] Add an h1 tag to your index.erb view file, with the words 'My name is ' inside it.
+- [x] At the end of the h1 tag (before it closes), append an empty interpolated Ruby Expression using <%= %> ('ERB tags')
+        - you wouldn't want to have many lines of code embedded!
+- [x] Inside these ERB tags, write an expression that samples a random name from the following array: ["Amigo", "Misty", "Almond"]
+- [x] Restart your server and visit the path associated with the cat route.
