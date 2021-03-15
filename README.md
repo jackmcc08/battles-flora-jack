@@ -136,3 +136,17 @@ servers
 - [x] In the line before you assign your `@name` variable, print (`p`) the `params` of the request
 - [x] Restart your server and refresh the page. Check the terminal (**server logs**) and explain to your pair partner what you see
 - [x] Change parts of the **query string** within the URL bar of your browser until you can fully explain how it works to your pair partner.
+
+
+# 13. Using forms
+
+- [x] Add a `form` to the view rendered by the `/named-cat` route
+- [x] Set the form `action` attribute to the `/named-cat` path
+- [x] Add an `input` element within the form, with a `type` attribute of `text` and a `name` attribute of `name`
+- [x] Add another `input` element within the form, with a `type` attribute of `submit` and a `value` attribute of `Submit`
+- [x] Visit the page in your browser. Use the form to change the name of the cat
+- [x] Using `<% if %>` within your view, conditionally render the form only if a user has not entered a name (i.e. if `@name` is empty)
+- [x] Explain to your pair partner how the attributes of inputs in the form affect the query string in the URL bar when you submit the form
+- [x] Modify some of the attributes of the inputs (e.g. the `name` attribute) and explain to your pair partner how this affects the query string in the URL bar when you submit the form
+- [x] Print the incoming `params` to the server logs each time you visit the route
+- [x] Explain to your pair partner how modifying input attributes (e.g. `name`) affects the incoming `params` hash
