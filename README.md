@@ -52,3 +52,13 @@ servers
 - [x] Make the same "POST" request again, this time with the `-v` flag.
 - [x] Explain to your partner what was different about the request headers as compared to the first step.
       - it added in content information about what we were sending.
+
+# 5. Sinatra: Getting Started
+
+- [x] Create a project directory with the `sinatra` gem installed via a Gemfile (if you use Ruby > 3.0, make sure the gem `webrick` is also installed globally)
+- [x] Create a file for your application, `app.rb`.
+- [x] Require `sinatra` at the top of the file.
+- [x] Run the app from the command line: `ruby app.rb`.
+- [x] Explain to your partner the significance of what you see in the terminal
+    - Saw the gets requests from the browser
+- [x] Use a browser to visit your application at `http://localhost:4567`
