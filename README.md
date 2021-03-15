@@ -81,3 +81,10 @@ servers
         - don't know what set :secret_sessions 'string' does
         - we changed ruby 2.7.2 to support shotgun
 - [x] Define a few more routes. Without killing the server, check if the routes are visitable.
+
+# 8. Returning HTML
+
+- [x] Define a new route, called get '/cat'.
+- [x] Using this image: http://bit.ly/1eze8aE , return an HTML string from the route that displays a cat photograph surrounded by a red dashed border.
+
+- ADDD QUOTE MARKS AROUND YOUR HTML STRINGS!!!
