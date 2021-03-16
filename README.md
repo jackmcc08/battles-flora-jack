@@ -150,3 +150,34 @@ Tuesday - jack and emma pairing
 - [x] Modify some of the attributes of the inputs (e.g. the `name` attribute) and explain to your pair partner how this affects the query string in the URL bar when you submit the form
 - [x] Print the incoming `params` to the server logs each time you visit the route
 - [x] Explain to your pair partner how modifying input attributes (e.g. `name`) affects the incoming `params` hash
+
+# 14. POSTed params
+
+- [x] Write a new `get` route that renders only the cat-naming `form`
+    - created a get route for the form which accessed the form
+- [x] Add a `method` attribute to your `form` element, with the value `"post"`
+    - this method goes into the html code
+- [x] Change your `/named-cat` route to use `post` instead of `get`
+    - in the router this becomes a post, cannot be accessed directly via Url
+- [x] Interact with your application
+- [x] Observe the URL query string when you submit the form
+    - There is one
+- [x] Observe the printed `params` when you submit the form
+
+- [x] Explain your observations to your pair partner.
+
+DONE #
+
+# 15. Using the Chrome DevTools
+
+- [x] Open the Chrome DevTools within your browser
+- [x] Switch to the Network pane of the DevTools
+- [x] Interact with your application, explaining to your pair partner what is happening in the DevTools when you do so
+    - GET 200 to the naming form
+    - POST 200 to the named cat
+    - Get 200 for the picture
+- [x] Locate the method for each request
+- [x] Locate the form data for `POST` requests
+  - At the bottom - will be part of the header?
+
+  

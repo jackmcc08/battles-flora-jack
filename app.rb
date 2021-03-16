@@ -2,7 +2,8 @@ require 'sinatra'
 set :session_secret, "here be dragons"
 
 get '/' do
-  'Hello!'
+  '<h1>Hello!</h1>
+  <a href="/named-cat">Name a Cat!</a>'
 end
 
 get '/secret' do
@@ -27,9 +28,15 @@ get '/random-cat' do
   erb(:index)
 end
 
-get '/named-cat' do
+post '/named-cat' do
   p params
   @name = params[:name]
   @test = params[:note]
   erb(:index)
+end
+
+get '/cat-name-form' do
+  # post '/form' do
+    erb :form
+  # end
 end
