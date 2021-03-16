@@ -192,3 +192,9 @@ DONE #
 - [x] Use Capybara's `visit` command to take the automated browser to [http://capybaraworkout.herokuapp.com/](http://capybaraworkout.herokuapp.com/), and use the `click_link` command to click 'Start Workout!'
 - [x] Refer to a [Capybara cheat sheet](https://thoughtbot.com/upcase/test-driven-rails-resources/capybara.pdf) and complete the Capybara workout.
 - [x] Explain to your pair partner what jobs `capybara` and `selenium-webdriver` do.
+
+   - Selenium is automation
+   - Capybara web based test-automation software
+
+
+Switching over to a new repo to create battles!!!!
