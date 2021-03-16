@@ -1,8 +1,8 @@
 # battles-flora-jack
 Week 3 Afternoon challenge - Monday
 
-browser - client
-servers
+On Monday - got the end of challenge 13 Using Forms
+Tuesday - jack and emma pairing
 
 # 1. The Web: An Introduction
 
